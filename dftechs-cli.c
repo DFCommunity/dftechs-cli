@@ -6,12 +6,10 @@ int initProject(){
 }
 int main() 
 { 
-	printf("Initiated DF Techs CLI ....\n");
-    
-    printf("Initiation Completed .............\n \n");
+	printf("Initiated DF Techs CLI ....\n\n");
 
     int mainMenuOption;
-
+    printf("DF Techs CLI Main Menu .. \n");
     printf("Enter your Choice :- \n");
     scanf("%d", &mainMenuOption);
 
@@ -32,7 +30,7 @@ int main()
         main();
     }
     else{
-        printf("Invalid Choice .... \n\n Exiting DF Techs CLI\n");
+        printf("Invalid Choice .... \n\nExiting DF Techs CLI\n");
         exit(1);
     }
     return 0; 
